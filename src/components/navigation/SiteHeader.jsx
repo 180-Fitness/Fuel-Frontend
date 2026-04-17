@@ -1,5 +1,4 @@
 import { NavLink } from "react-router-dom";
-import logoImage from "../../assets/images/logo/180_Fitness_Logo_White_LONG.png";
 import "./site-header.scss";
 
 export default function SiteHeader({ cartUnitCount, onCartClick }) {
@@ -9,24 +8,6 @@ export default function SiteHeader({ cartUnitCount, onCartClick }) {
   return (
     <header className="site-header-container">
       <div className="logo-nav-wrapper">
-        <div className="brand-wrapper">
-          <a
-            href="https://180fitness.com"
-            className="logo-link"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="180 Fitness — opens main site in a new tab"
-          >
-            <img
-              className="logo"
-              src={logoImage}
-              alt="180 Fitness"
-              width="280"
-              height="52"
-            />
-          </a>
-        </div>
-
         <nav className="nav-links-wrapper" aria-label="Main">
           <NavLink to="/" end className="nav-link">
             Shop

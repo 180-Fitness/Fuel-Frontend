@@ -1,4 +1,5 @@
 import charcoalBrownHoodieImage from "../assets/images/apparel/charcoal-brown.png";
+import strongMamaBootcampFlyer from "../assets/images/products/Strong women screenshot.png";
 
 /**
  * Apparel shown on /apparel — checkout happens on the main 180 Fitness store.
@@ -33,7 +34,7 @@ export const apparelCatalog = [
     title: "Strong Mama Boot Camp",
     price: 275,
     blurb: "Program offering — see store for dates and details.",
-    imageSrc: null,
+    imageSrc: strongMamaBootcampFlyer,
   },
   {
     id: "longsleeve-white",

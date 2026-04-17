@@ -21,17 +21,6 @@
     min-width: 0;
   }
 
-  .brand-wrapper {
-    display: flex;
-    align-items: center;
-    min-width: 0;
-  }
-
-  .logo-link {
-    display: inline-flex;
-    line-height: 0;
-  }
-
   .nav-links-wrapper {
     display: flex;
     align-items: center;
@@ -72,14 +61,6 @@
   .nav-link-stacked .text-line {
     display: block;
     text-align: center;
-  }
-
-  .logo {
-    height: clamp(36px, 5vw, 52px);
-    width: auto;
-    max-width: min(320px, 55vw);
-    object-fit: contain;
-    display: block;
   }
 
   .actions-wrapper {
