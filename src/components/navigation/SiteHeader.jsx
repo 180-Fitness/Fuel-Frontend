@@ -12,14 +12,6 @@ export default function SiteHeader({ cartUnitCount, onCartClick }) {
           <NavLink to="/" end className="nav-link">
             Shop
           </NavLink>
-          <NavLink
-            to="/other-supplements"
-            className="nav-link nav-link-stacked"
-            aria-label="Other supplements"
-          >
-            <span className="text-line">Other</span>
-            <span className="text-line">Supplements</span>
-          </NavLink>
           <NavLink to="/apparel" className="nav-link">
             Apparel
           </NavLink>

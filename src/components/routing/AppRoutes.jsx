@@ -1,7 +1,6 @@
 import { Navigate, Route, Routes } from "react-router-dom";
 import Landing from "../pages/Landing.jsx";
 import Policies from "../pages/Policies.jsx";
-import OtherSupplementsPage from "../pages/OtherSupplementsPage.jsx";
 import ApparelPage from "../pages/ApparelPage.jsx";
 
 /**
@@ -18,7 +17,6 @@ export default function AppRoutes() {
   return (
     <Routes>
       <Route path="/" element={<Landing />} />
-      <Route path="/other-supplements" element={<OtherSupplementsPage />} />
       <Route path="/apparel" element={<ApparelPage />} />
       <Route path="/policies" element={<Policies />} />
       <Route path="*" element={<Navigate to="/" replace />} />

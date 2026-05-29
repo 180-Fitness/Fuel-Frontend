@@ -6,13 +6,6 @@ export default function SiteFooter() {
     <footer className="site-footer-container">
       <div className="content-wrapper">
         <nav className="footer-nav" aria-label="Footer">
-          <Link to="/other-supplements" className="footer-link">
-            Other supplements
-          </Link>
-          <span className="footer-sep" aria-hidden="true">
-            {" "}
-            ·{" "}
-          </span>
           <Link to="/apparel" className="footer-link">
             Apparel
           </Link>
